@@ -9,7 +9,8 @@ while flag:
 	num = input("Type a number for a n upper bound: ")
 
 
-	if num.isdigit():
+	if num.isdigit():  # if all characters in the string are digits
+	
 		print("Lets play the game !!!")
 		num = int(num)
 		flag = False
